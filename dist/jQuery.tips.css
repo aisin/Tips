@@ -2,7 +2,7 @@
 
 /* Tips - Basic */
 .tip{position:absolute;padding:7px 0; display: none;z-index:99;}
-.tip .tip-inner{font-size: 12px;border:1px solid #ccc;border-radius: 5px;}
+.tip .tip-inner{font-size: 12px;border:1px solid #e8e8e8;border-radius: 5px;}
 .tip .tip-content{padding:8px;}
 
 .tip .arrow{width:0;height:0;border-width:0 8px 0 8px;border-style:solid dashed none;position:absolute;left:16px;border-left-color:transparent;border-right-color:transparent;}
@@ -18,7 +18,7 @@
 /* Tips - Skin : white */
 .tip.white .tip-inner{background:#fff;color:#888;}
 .tip.white .arrow-front{border-top-color:#fff;border-bottom-color:#fff;}
-.tip.white .arrow-back{border-top-color:#ccc;border-bottom-color:#ccc;}
+.tip.white .arrow-back{border-top-color:#e8e8e8;border-bottom-color:#e8e8e8;}
 
 /* Tips - Skin : black */
 .tip.black .tip-inner{background:#000;color:#fff;}
