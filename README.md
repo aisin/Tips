@@ -1,5 +1,7 @@
 # Tips
 
+###[Demo](http://aisin.github.io/Tips/)
+
 ### Guide
 
 **At first to load jQuery, and enable  Tips plugin：**
