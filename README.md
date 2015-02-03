@@ -1,6 +1,6 @@
 # Tips
 
-###[Demo](http://aisin.github.io/Tips/){:target="_blank"}
+###<a href="http://aisin.github.io/Tips/" target="_blank">Demo</a>
 
 ### Guide
 
