@@ -1,6 +1,6 @@
 # Tips
 
-###[Demo](http://aisin.github.io/Tips/)
+###[Demo](http://aisin.github.io/Tips/){:target="_blank"}
 
 ### Guide
 
