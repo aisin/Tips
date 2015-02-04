@@ -45,7 +45,7 @@
 					top += height;
 					$tip.addClass('bottom');
 					
-				} else {
+				} else { 
 				
 					top -= tipHeight;
 					$tip.addClass('top');
