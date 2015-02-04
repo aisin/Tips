@@ -5,13 +5,16 @@
 	$.fn.tips = function(options){
 
 		var defaults = {
-		
-			skin: 'black',
-			msg: ''
+			
+			destroy : false,
+			skin    : 'black',
+			msg     : ''
 			
 		};
 
 		var data = $.extend( {}, defaults, options || {} );
+		
+		if (data.destroy) return false;
 
 		return this.each(function(){
 
