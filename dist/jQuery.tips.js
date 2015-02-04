@@ -13,12 +13,17 @@
 		};
 
 		var data = $.extend( {}, defaults, options || {} );
-		
-		if (data.destroy) return false;
 
 		return this.each(function(){
 
 			var $this = $(this);
+			
+			if (data.destroy) {
+			
+				$this.unbind('hover');
+				return false;
+				
+			}
 
 			$this.hover(function(){
 
